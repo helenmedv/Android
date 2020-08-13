@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@android:dimen/app_icon_size"
+    tools:context=".MainActivity">
+
+<!--    <EditText-->
+<!--        android:id="@+id/editText_activity_main_person_name"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:hint="Введите имя"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginTop="15sp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView_activity_main_result"-->
+<!--        android:layout_width="215dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_marginEnd="132dp"-->
+<!--        android:layout_below="@+id/editText_activity_main_person_name"-->
+<!--        android:layout_marginTop="20sp"/>-->
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/button_activity_main_action"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Action"-->
+<!--        android:layout_below="@+id/textView_activity_main_result"-->
+<!--        android:layout_marginTop="20sp"/>-->
+
+    <EditText
+        android:id="@+id/editText_activity_main_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Введите имя"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15sp"/>
+
+    <EditText
+        android:id="@+id/editText_activity_main_emailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Введите email"
+        android:layout_below="@+id/editText_activity_main_name"
+        android:layout_marginTop="15sp"/>
+
+    <EditText
+        android:id="@+id/editText_activity_main_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Введите пароль"
+        android:layout_below="@+id/editText_activity_main_emailAddress"
+        android:layout_marginTop="15sp"/>
+
+    <EditText
+        android:id="@+id/editText_activity_main_password_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_below="@+id/editText_activity_main_password"
+        android:hint="Повторите ввод пароля"
+        android:layout_marginTop="15sp"/>
+
+    <Button
+        android:id="@+id/button_activity_main_registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:layout_below="@+id/editText_activity_main_password_confirm"
+        android:layout_marginTop="25sp"/>
+
+        <TextView
+            android:id="@+id/textView_activity_main_show_result"
+            android:layout_width="215dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="132dp"
+            android:layout_below="@+id/button_activity_main_registration"
+            android:layout_marginTop="20sp"/>
+
+
+</RelativeLayout>

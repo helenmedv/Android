@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">education</string>
+    <string name="right_name">Everything looks fine!</string>
+    <string name="wrong_name">Error, we have digits in our name!</string>
+    <string name="field_empty">One of fields is empty</string>
+    <string name="name_contains_digit">Name must contain at least one digit</string>
+    <string name="equals_passwords">Passwords do not match</string>
+</resources>
